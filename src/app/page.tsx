@@ -1,5 +1,4 @@
 "use client";
-"use client";
 import { useState, ChangeEvent } from "react";
 import { saveAs } from "file-saver";
 import { Document, Packer, Paragraph, TextRun, ImageRun } from "docx";
@@ -67,7 +66,7 @@ export default function Home() {
                   },
                 }),
                 new TextRun({
-                  text: `CAPTION: ${newImageName}`,
+                  text: `LEGENDA: ${newImageName}`,
                   break: 2,
                 }),
               ],
